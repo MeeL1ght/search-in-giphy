@@ -5,7 +5,6 @@ import TrashBtn from './TrashBtn/TrashBtn.jsx'
 
 const GifExpertApp = () => {
   const [category, setCategory] = useState('')
-  const [isDisabled, setIsDisabled] = useState(true)
   
   return (
     <>
@@ -72,7 +71,6 @@ const GifExpertApp = () => {
             />
           }
         </div>
-
       </div>
 
       <ul>
