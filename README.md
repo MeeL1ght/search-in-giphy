@@ -43,7 +43,8 @@ yarn
 
 5. 📄✏ Copy or type your *[api key]* to the `VITE_API_KEY` *environment variable* and the `VITE_GIFS_LIMIT` gifs limit to the `.env` file located in the root folder of the project.
 
-```hack
+```py
+# Environment variables
 VITE_HOST=your_host
 VITE_PORT=your_port
 VITE_API_KEY=giphy_token
