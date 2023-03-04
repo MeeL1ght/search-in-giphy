@@ -1,8 +1,13 @@
 {
-  "name": "practice",
+  "name": "search-in-giphy",
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "author": {
+		"name": "Moises",
+		"email": "meelight12@gmail.com",
+		"url": "https://github.com/MeeL1ght"
+	},
   "scripts": {
     "dev": "vite",
     "build": "vite build",
