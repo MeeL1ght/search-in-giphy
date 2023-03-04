@@ -1,6 +1,6 @@
 # GifExpertApp
 
-## App for practical purposes, made with Vite, React and Javascript.
+## ⚡ App for practical purposes made with Vite, React and Javascript.
 
 <div align="center">
   <img
@@ -23,30 +23,37 @@
   />
 </div>
 
-## Steps
+## Steps 📌
 
-1. Dependencies installation
+1. ⬇ You can `clone the repository` or `download` its file *.zip*
+
+```shell
+git clone https://github.com/MeeL1ght/search-in-giphy.git
+```
+
+2. 📦 Dependencies installation.
 ```shell
 yarn
 ```
 
-2. Go to https://giphy.com/ and Register.
+3. 🔎 Go to https://giphy.com/ and Register.
 
-3. Create a ***.env*** file in the root folder.
+4. ⚠ Create a `.env` file in the root folder.
 
-4. Copy or type your *[api key]* to the **VITE_API_KEY** environment variable and the **VITE_GIFS_LIMIT** gifs limit to the ***.env*** file located in the root folder of the project.
+5. 📄✏ Copy or type your *[api key]* to the `VITE_API_KEY` *environment variable* and the `VITE_GIFS_LIMIT` gifs limit to the `.env` file located in the root folder of the project.
 
 ```hack
 VITE_API_KEY=giphy_token
 VITE_GIFS_LIMIT=number_value
 ```
 
-5. Type ***yarn dev***
+6. 🚀 Type `yarn dev`
+
 ```shell
 yarn dev
 ```
 
-## UI
+## UI 🎨
 
 <img
   src="./src/assets/1_capture.png"
