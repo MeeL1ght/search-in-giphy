@@ -1,6 +1,6 @@
 # GifExpertApp
 
-## Application for practical purposes, made with Vite, React and Javascript.
+## App for practical purposes, made with Vite, React and Javascript.
 
 <div align="center">
   <img
