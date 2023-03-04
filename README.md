@@ -2,16 +2,14 @@
 
 ## Application for practical purposes, made with Vite, React and Javascript.
 <img
-  src="https://unpkg.com/ionicons@5.5.2/dist/svg/logo-react.svg"
+  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png"
   width="25px"
   height="25px"
-  style="background-color: skyblue;"
 />
 <img
-  src="https://unpkg.com/ionicons@5.5.2/dist/svg/logo-javascript.svg"
+  src="https://o.remove.bg/downloads/e51fbd5c-6a15-4da2-b6ee-149e0b70bbbf/1_hYyWcHp5hoL0pwpHIeV1Ww-removebg-preview.png"
   width="25px"
   height="25px"
-  style="background-color: yellow;"
 />
 
 ## Steps
