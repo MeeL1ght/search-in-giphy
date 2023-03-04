@@ -1,0 +1,38 @@
+.card__grid {
+  height: max-content;
+  width: 72.5vw;
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.card, .card__image {
+  height: 225px;
+  width: 250px;
+}
+
+.card {
+  background-color: #323d44;
+  border: 1px solid gray;
+  border-radius: 1.5rem;
+  /* top, left, bottom, right */
+  margin: 0 0 10px 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card__title, .category__title {
+  padding: 2px 5px 2px 5px;
+}
+
+.category__title {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.card__image {
+  align-content: center;
+  object-fit: cover;
+}

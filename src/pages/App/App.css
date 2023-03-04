@@ -1,0 +1,108 @@
+#root {
+  background-color: #0f2231;
+  max-width: 100vw; /* 1280px */
+  height: 80vh;
+  width: 80vw; /* 80vw; */
+  padding: 2rem;
+  border: 3px solid #3b5064;
+  border-radius: 0.8rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.app__title {
+  color: var(--gray);
+  font-family: monospace, sans-serif;
+  font-size: 1.65em;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  margin: 0 0 0 15px;
+  word-spacing: 1px;
+}
+
+.logo, #gh__logo {
+  display: block;
+  height: 2em;
+  padding: 0 0 0 20px;
+  will-change: filter;
+  cursor: default;
+  transition: filter 200ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 1em rgba(97, 57, 243, 0.667));
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 1em rgba(57, 203, 243, 0.667));
+}
+#gh__logo {
+  height: 2em;
+  width: 2em;
+  cursor: pointer;
+}
+#gh__logo:hover {
+  filter: drop-shadow(0 0 1em rgb(160, 157, 157));
+}
+
+.container,
+.title__container {
+  height: max-content;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.container {
+  flex-flow: column wrap;
+  margin: 0 0 3.125rem 0;
+}
+.title__container {
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.line {
+  height: 2px;
+  width: 80vw;
+  margin: 10px 0 10px 0;
+  display: block;
+  background-color: #384552;
+  opacity: 0.5;
+}
+
+.btn__container {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#trash__icon {
+  margin: 0 0 0 5px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 420px) {
+  #root {
+    width: 78vw;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #root {
+    width: 76vw;
+  }
+}
+@media only screen and (max-width: 280px) {
+  #root {
+    width: 65vw;
+  }
+  .container,
+  .title__container {
+    width: var(--width-small_size-phone);
+    justify-content: center;
+  }
+  .title__container {
+    flex-flow: row wrap;
+  }
+  .line {
+    width: var(--width-small_size-phone);
+  }
+}

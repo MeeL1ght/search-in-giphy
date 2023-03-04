@@ -1,0 +1,6 @@
+:root {
+  --dark-blue: #0c1b27;
+  --light: rgba(255, 255, 255, 0.7);
+  --gray: #9ab8d4;
+  --width-small_size-phone: calc(100vw - 34vw);
+}
