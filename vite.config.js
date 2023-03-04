@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 /** @type {import('vite').UserConfig} */
 export default defineConfig(({ command, mode }) => {
-  const env        = loadEnv(mode, process.cwd())
+  const env      = loadEnv(mode, process.cwd())
   const devSetup = {
     plugins: [react()],
     server: {
