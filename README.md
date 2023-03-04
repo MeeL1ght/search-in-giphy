@@ -32,6 +32,7 @@ git clone https://github.com/MeeL1ght/search-in-giphy.git
 ```
 
 2. 📦 Dependencies installation.
+
 ```shell
 yarn
 ```
